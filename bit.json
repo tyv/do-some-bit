@@ -1,0 +1,14 @@
+{
+    "env": {
+        "compiler": "bit.envs/compilers/react-typescript@3",
+        "tester": "none"
+    },
+    "dependencies": {},
+    "structure": {
+        "components": "components/{namespace}/{name}",
+        "dependencies": "components/.dependencies"
+    },
+    "dist": {
+        "target": "dist"
+    }
+}

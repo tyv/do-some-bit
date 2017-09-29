@@ -60,3 +60,6 @@ jspm_packages/
 
 .history
 .DS_Store
+
+# bit
+.bit
