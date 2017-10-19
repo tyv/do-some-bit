@@ -1,0 +1,16 @@
+@namespace "list";
+
+:import {
+    -st-from: "../../project.st.css";
+    -st-named:  mainBackgroundColor;
+}
+
+
+.root {
+    list-style: none;
+    background: value(mainBackgroundColor);
+}
+
+:global(body) {
+    background: value(mainBackgroundColor); /* this should be yellow, but it is #ccc */
+}

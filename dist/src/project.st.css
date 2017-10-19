@@ -1,0 +1,10 @@
+@namespace "project";
+
+:vars {
+    mainForegroundColor: #333;
+    mainBackgroundColor: #ccc;
+}
+
+:global(body) {
+    background: value(mainBackgroundColor);
+}

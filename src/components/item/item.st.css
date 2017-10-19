@@ -1,0 +1,9 @@
+@namespace "item";
+:import {
+    -st-from: "../../project.st.css";
+    -st-named:  mainForegroundColor;
+}
+
+.root {
+    color: value(mainForegroundColor);
+}

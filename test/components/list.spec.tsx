@@ -11,7 +11,7 @@ describe('<List/>', function() {
 
     describe('Component / Demo test', function() {
         it('Basic demo', async function() {
-            const {select, waitForDom} = clientRenderer.render(<List/>);
+            const {select, waitForDom} = clientRenderer.render(<List />);
 
             await waitForDom(() => {
                 const element = select('LIST');

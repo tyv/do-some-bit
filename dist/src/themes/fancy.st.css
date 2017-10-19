@@ -1,0 +1,12 @@
+@namespace "fancy";
+
+:import {
+    -st-from: "../project.st.css";
+    -st-theme:  true;
+    mainForegroundColor: red;
+    mainBackgroundColor: yellow;
+}
+
+:global(body) {
+    background: value(mainBackgroundColor);
+}
